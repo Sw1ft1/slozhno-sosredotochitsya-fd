@@ -19,7 +19,7 @@
   --menu-button-border-color: rgba(53, 52, 48, 0.6);
 }
 
-.theme-light .main-lamp {
+.theme-light .lamp {
   display: none;
 }
 
@@ -39,7 +39,7 @@
     --menu-button-border-color: rgba(53, 52, 48, 0.6);
   }
 
-  .main-lamp {
+  .lamp {
     display: none;
   }
 }
