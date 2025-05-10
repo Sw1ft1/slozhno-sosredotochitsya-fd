@@ -16,7 +16,7 @@
   margin: 0;
 }
 
-.header-lamp {
+.lamp {
   display: flex;
   font-size: var(--content-font-size);
   color: var(--accent-color);
@@ -36,7 +36,7 @@
   margin-top: 5px;
 }
 
-.header-lamp::after {
+.lamp::after {
   border-radius: 50%;
   display: flex;
   content: "";
@@ -249,7 +249,7 @@
     bottom: 20px;
   }
 
-  .header-lamp {
+  .lamp {
     margin-block-start: 20px;
     margin-inline-end: 20px;
   }
