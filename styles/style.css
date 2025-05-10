@@ -61,7 +61,7 @@
   padding-block: 6px;
 }
 
-.main-header__theme-menu-button {
+.header__theme-menu-button {
   font-family: var(--content-font-family, monospace, sans-serif);
   color: var(--menu-button-text-color);
   background-color: transparent;
@@ -73,11 +73,11 @@
 }
 
 
-.main-header__theme-menu-button:hover {
+.header__theme-menu-button:hover {
   border: 1px solid var(--menu-button-border-color);
 }
 
-.main-header__theme-menu-button_active {
+.header__theme-menu-button_active {
   border: 1px solid currentColor;
   pointer-events: none;
 }
@@ -94,7 +94,7 @@
   padding-inline: 10px;
 }
 
-.main-header__theme-menu-button:focus-visible {
+.header__theme-menu-button:focus-visible {
   border-bottom: 1px solid;
   outline: none;
 }
