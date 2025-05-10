@@ -19,6 +19,6 @@
   --menu-button-border-color: rgba(255, 0, 112, 0.6);
 }
 
-.theme-dark .main-lamp {
+.theme-dark .lamp {
   display: flex;
 }
