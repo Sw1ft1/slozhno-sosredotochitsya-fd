@@ -23,8 +23,8 @@
   position: absolute;
   font-family: var(--content-font-family, monospace, sans-serif);
   justify-self: end;
-  margin-block-start: 10px;
-  margin-inline-end: 10px;
+  inset-block-start: 10px;
+  inset-inline-end: 10px;
 }
 
 
@@ -41,11 +41,11 @@
   display: flex;
   content: "";
   inline-size: 9px;
-  margin-inline-end: 10px;
+  inset-inline-end: 10px;
   block-size: 9px;
   background-color: var(--accent-color);
   box-shadow: 0 0 2px 2px var(--accent-color);
-  margin-inline-start: 10px;
+  inset-inline-start: 10px;
   align-self: center;
 }
 
