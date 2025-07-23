@@ -1,12 +1,25 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
+.page.theme_dark {
+  --bg-color: var(--color-black-1, #000028);
+  --bg-image: url("../images/cover-image-dark.png");
+  --rec-vis: visible;
+  --text-color: var(--color-pink-2, #f1b2ce);
+  --page-title-color: var(--color-purple-1, #db00ff);
+  --second-color: var(--color-purple-2, #ff0070);
+  --second-color-tr: var(--color-purple-2-tr, #ff007040);
+  --accent-color: var(--color-purple-2, #ff0070);
+  --title-color: var(--color-black-1, #000028);
+}
 
-:root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+@media (prefers-color-scheme: dark) {
+  :root {
+  --bg-color: var(--color-black-1, #000028);
+  --bg-image: url("../images/cover-image-dark.png");
+  --rec-vis: visible;
+  --text-color: var(--color-pink-2, #f1b2ce);
+  --page-title-color: var(--color-purple-1, #db00ff);
+  --second-color: var(--color-purple-2, #ff0070);
+  --second-color-tr: var(--color-purple-2-tr, #ff007040);
+  --accent-color: var(--color-purple-2, #ff0070);
+  --title-color: var(--color-black-1, #000028);
+  }
 }
